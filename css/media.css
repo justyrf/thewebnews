@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+    .arcticle-d {
+        flex-wrap: wrap;
+    }
+
+    .hex {
+        width: 50%;
+    }
+
+    .px {
+        width: 50%;
+    }
+
+    .wx {
+        width: 50%;
+    }
+
+    .lx {
+        width: 50%;
+    }
+
+    .hex img,
+    .px img,
+    .wx img,
+    .lx img {
+        order: 0;
+    }
+
+    .hex .text4,
+    .px .text4,
+    .wx .text4,
+    .lx .text4 {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__nav {
+        flex-direction: column;
+    }
+}
